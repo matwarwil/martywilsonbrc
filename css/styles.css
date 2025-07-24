@@ -4711,7 +4711,7 @@ td:last-child {
 }
 
 .contact-block a {
-	color: var(--color-text);
+	color: var(--color-1-dark);
 }
 
 .contact-block a:focus,
@@ -4722,6 +4722,7 @@ td:last-child {
 .contact-block h6 {
 	margin-top   : 0;
 	margin-bottom: var(--vspace-0_125);
+	color: var(--color-3);
 }
 
 .contact-social {
