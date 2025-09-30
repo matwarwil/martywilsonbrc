@@ -3006,6 +3006,19 @@ td:last-child {
 }
 
 /* ------------------------------------------------------------------- 
+ * ## custom styling for Personal Information, Education, and Community Activities sections
+ * ------------------------------------------------------------------- */
+/* Style h3 elements in the list items sections */
+.list-items__item-title {
+	color: var(--color-1) !important;
+}
+
+/* Style strong elements within the list items text sections */
+.list-items__item-text strong {
+	color: var(--color-1) !important;
+}
+
+/* ------------------------------------------------------------------- 
  * responsive:
  * project-wide and shared styles
  * ------------------------------------------------------------------- */
@@ -4016,8 +4029,9 @@ td:last-child {
  *
  * ------------------------------------------------------------------- */
 .s-expertise {
-	padding-top   : var(--vspace-6);
-	padding-bottom: var(--vspace-5);
+	padding-top     : var(--vspace-6);
+	padding-bottom  : var(--vspace-5);
+	background-color: var(--color-gray-2);
 }
 
 .s-expertise__content-main {
